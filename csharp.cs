@@ -19,7 +19,7 @@ BigInteger FibMemo(BigInteger n, Dictionary<BigInteger, BigInteger> dictionary)
     }
     if (n == 1)
     {
-        if (!dictionary.ContainsKey(0))
+        if (!dictionary.ContainsKey(1))
             dictionary.Add(n, 1);
     }
 
